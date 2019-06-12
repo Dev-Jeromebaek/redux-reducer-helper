@@ -7,14 +7,6 @@ const reducer = {
       [target]: initState[target],
     };
   },
-  /*
-  set: (state, target, purpose) => {
-    return {
-      ...state,
-      [target]: purpose,
-    };
-  },
-  */
   set: (state, action, target, purpose) => {
     if (!action)
       return {
@@ -54,11 +46,6 @@ const immutableReducer = {
   init: (state, target, initState) => {
     return state.set(target, initState.get(target));
   },
-  /*
-  set: (state, target, purpose) => {
-    return state.set(target, fromJS(purpose));
-  },
-  */
   set: (state, action, target, purpose) => {
     if (!action) return state.set(target, fromJS(purpose));
     if (!purpose) return state.set(target, fromJS(action.payload));
