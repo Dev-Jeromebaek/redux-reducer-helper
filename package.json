@@ -1,6 +1,6 @@
 {
   "name": "redux-reducer-helper",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "description": "simple library that simple module that helps to management redux store CRUD",
   "main": "dist/helper.min.js",
   "scripts": {
