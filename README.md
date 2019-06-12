@@ -24,12 +24,12 @@ push: push(state, target, purpose)
 ## Install
 
 ```sh
-$ npm install --save redux-simple-pending
+$ npm install --save redux-reducer-helper
 ```
 or
 
 ```sh
-$ yarn add redux-simple-pending
+$ yarn add redux-reducer-helper
 ```
 Alternatively, you may use the provided UMD builds directly in the `<script>` tag of an HTML page.
 
