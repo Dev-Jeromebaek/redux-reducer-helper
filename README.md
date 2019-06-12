@@ -3,7 +3,7 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Dev-JeromeBaek/redux-reducer-helper/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Dev-JeromeBaek/redux-reducer-helper/pulls)
 [![npm version](https://img.shields.io/npm/v/redux-reducer-helper.svg?style=flat)](https://www.npmjs.com/package/redux-reducer-helper)
-[![npm](https://img.shields.io/github/downloads/Dev-JeromeBaek/redux-reducer-helper/total.svg?color=green)](https://www.npmjs.com/package/redux-reducer-helper)
+[![npm](https://img.shields.io/npm/dm/redux-simple-pending.svg)](https://www.npmjs.com/package/redux-reducer-helper)
 [![Github Issues](https://img.shields.io/github/issues-pr/Dev-JeromeBaek/redux-reducer-helper.svg?color=blueviolet)](https://github.com/Dev-JeromeBaek/redux-reducer-helper/pulls)
 [![Github Issues](https://img.shields.io/github/issues/Dev-JeromeBaek/redux-reducer-helper.svg?color=yellow)](https://github.com/Dev-JeromeBaek/redux-reducer-helper/issues)
 
