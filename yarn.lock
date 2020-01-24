@@ -277,15 +277,15 @@
   dependencies:
     "@babel/types" "^7.8.3"
 
-"@babel/helper-wrap-function@^7.1.0", "@babel/helper-wrap-function@^7.2.0":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@babel/helper-wrap-function/-/helper-wrap-function-7.2.0.tgz#c4e0012445769e2815b55296ead43a958549f6fa"
-  integrity sha512-o9fP1BZLLSrYlxYEYyl2aS+Flun5gtjTIG8iln+XuEzQTs0PLagAGSXUcqruJwD5fM48jzIEggCKpIfWTcR7pQ==
+"@babel/helper-wrap-function@^7.1.0", "@babel/helper-wrap-function@^7.8.3":
+  version "7.8.3"
+  resolved "https://registry.yarnpkg.com/@babel/helper-wrap-function/-/helper-wrap-function-7.8.3.tgz#9dbdb2bb55ef14aaa01fe8c99b629bd5352d8610"
+  integrity sha512-LACJrbUET9cQDzb6kG7EeD7+7doC3JNvUgTEQOx2qaO1fKlzE/Bf05qs9w1oXQMmXlPO65lC3Tq9S6gZpTErEQ==
   dependencies:
-    "@babel/helper-function-name" "^7.1.0"
-    "@babel/template" "^7.1.0"
-    "@babel/traverse" "^7.1.0"
-    "@babel/types" "^7.2.0"
+    "@babel/helper-function-name" "^7.8.3"
+    "@babel/template" "^7.8.3"
+    "@babel/traverse" "^7.8.3"
+    "@babel/types" "^7.8.3"
 
 "@babel/helpers@^7.4.4":
   version "7.4.4"
@@ -359,13 +359,13 @@
     "@babel/plugin-syntax-export-namespace-from" "^7.2.0"
 
 "@babel/plugin-proposal-function-sent@^7.2.0":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.2.0.tgz#f707d78551f49162e152d477fba32357341915d1"
-  integrity sha512-qQBDKRSCu1wGJi3jbngs18vrujVQA4F+OkSuIQYRhE6y19jcPzeEIGOc683mCQXDUR3BQCz8JyCupIwv+IRFmA==
+  version "7.8.3"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.8.3.tgz#341fd532b7eadbbbdd8bcb715150f279a779f14f"
+  integrity sha512-lu9wQjLnXd6Zy6eBKr0gE175xfD+da1rv2wOWEnZlD5KIxl894Tg34ppZ7ANR0jzQJMn+7pGuzSdy6JK4zGtKg==
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/helper-wrap-function" "^7.2.0"
-    "@babel/plugin-syntax-function-sent" "^7.2.0"
+    "@babel/helper-plugin-utils" "^7.8.3"
+    "@babel/helper-wrap-function" "^7.8.3"
+    "@babel/plugin-syntax-function-sent" "^7.8.3"
 
 "@babel/plugin-proposal-json-strings@^7.2.0":
   version "7.2.0"
@@ -444,12 +444,12 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-syntax-function-sent@^7.2.0":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-function-sent/-/plugin-syntax-function-sent-7.2.0.tgz#91474d4d400604e4c6cbd4d77cd6cb3b8565576c"
-  integrity sha512-2MOVuJ6IMAifp2cf0RFkHQaOvHpbBYyWCvgtF/WVqXhTd7Bgtov8iXVCadLXp2FN1BrI2EFl+JXuwXy0qr3KoQ==
+"@babel/plugin-syntax-function-sent@^7.8.3":
+  version "7.8.3"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-function-sent/-/plugin-syntax-function-sent-7.8.3.tgz#5a4874bdfc271f0fa1c470bf508dc54af3041e19"
+  integrity sha512-NNEutF0x2PdWYij2bmf/i50dSq4SUdgFij4BZwj3I4qDZgql3dlFJRyvwGHAhwKYElUKHaP0wQ/yO1d/enpJaw==
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
 "@babel/plugin-syntax-import-meta@^7.2.0":
   version "7.2.0"
@@ -838,7 +838,7 @@
     globals "^11.1.0"
     lodash "^4.17.13"
 
-"@babel/types@^7.0.0", "@babel/types@^7.2.0", "@babel/types@^7.4.4":
+"@babel/types@^7.0.0", "@babel/types@^7.4.4":
   version "7.4.4"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.4.4.tgz#8db9e9a629bb7c29370009b4b779ed93fe57d5f0"
   integrity sha512-dOllgYdnEFOebhkKCjzSVFqw/PmmB8pH6RGOWkY4GsboQNd47b1fBThBSwlHAq9alF9vc1M3+6oqR47R50L0tQ==
@@ -1544,11 +1544,6 @@ commander@^2.20.0:
   version "2.20.3"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
-
-commander@^2.8.1:
-  version "2.20.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
-  integrity sha512-7j2y+40w61zy6YC2iRNpUe/NwhNyoXrYpHMrSunaMG64nRnaf96zO/KMQR4OyN/UnE5KLyEBnKHd4aG3rskjpQ==
 
 commander@^4.0.1:
   version "4.1.0"
@@ -2651,11 +2646,6 @@ locate-path@^3.0.0:
     path-exists "^3.0.0"
 
 lodash@^4.17.11, lodash@^4.17.13:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
-
-lodash@^4.17.13:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
