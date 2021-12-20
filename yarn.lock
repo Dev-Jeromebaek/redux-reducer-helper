@@ -85,19 +85,7 @@
     browserslist "^4.17.5"
     semver "^6.3.0"
 
-"@babel/helper-create-class-features-plugin@^7.16.0":
-  version "7.16.0"
-  resolved "https://registry.yarnpkg.com/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.16.0.tgz#090d4d166b342a03a9fec37ef4fd5aeb9c7c6a4b"
-  integrity sha512-XLwWvqEaq19zFlF5PTgOod4bUA+XbkR4WLQBct1bkzmxJGB0ZEJaoKF4c8cgH9oBtCDuYJ8BP5NB9uFiEgO5QA==
-  dependencies:
-    "@babel/helper-annotate-as-pure" "^7.16.0"
-    "@babel/helper-function-name" "^7.16.0"
-    "@babel/helper-member-expression-to-functions" "^7.16.0"
-    "@babel/helper-optimise-call-expression" "^7.16.0"
-    "@babel/helper-replace-supers" "^7.16.0"
-    "@babel/helper-split-export-declaration" "^7.16.0"
-
-"@babel/helper-create-class-features-plugin@^7.16.5":
+"@babel/helper-create-class-features-plugin@^7.16.0", "@babel/helper-create-class-features-plugin@^7.16.5":
   version "7.16.5"
   resolved "https://registry.yarnpkg.com/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.16.5.tgz#5d1bcd096792c1ebec6249eebc6358eec55d0cad"
   integrity sha512-NEohnYA7mkB8L5JhU7BLwcBdU3j83IziR9aseMueWGeAjblbul3zzb8UvJ3a1zuBiqCMObzCJHFqKIQE6hTVmg==
@@ -169,13 +157,6 @@
   dependencies:
     "@babel/types" "^7.16.0"
 
-"@babel/helper-member-expression-to-functions@^7.16.0":
-  version "7.16.0"
-  resolved "https://registry.yarnpkg.com/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.16.0.tgz#29287040efd197c77636ef75188e81da8bccd5a4"
-  integrity sha512-bsjlBFPuWT6IWhl28EdrQ+gTvSvj5tqVP5Xeftp07SEuz5pLnsXZuDkDD3Rfcxy0IsHmbZ+7B2/9SHzxO0T+sQ==
-  dependencies:
-    "@babel/types" "^7.16.0"
-
 "@babel/helper-member-expression-to-functions@^7.16.5":
   version "7.16.5"
   resolved "https://registry.yarnpkg.com/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.16.5.tgz#1bc9f7e87354e86f8879c67b316cb03d3dc2caab"
@@ -230,16 +211,6 @@
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.16.0"
     "@babel/helper-wrap-function" "^7.16.5"
-    "@babel/types" "^7.16.0"
-
-"@babel/helper-replace-supers@^7.16.0":
-  version "7.16.0"
-  resolved "https://registry.yarnpkg.com/@babel/helper-replace-supers/-/helper-replace-supers-7.16.0.tgz#73055e8d3cf9bcba8ddb55cad93fedc860f68f17"
-  integrity sha512-TQxuQfSCdoha7cpRNJvfaYxxxzmbxXw/+6cS7V02eeDYyhxderSoMVALvwupA54/pZcOTtVeJ0xccp1nGWladA==
-  dependencies:
-    "@babel/helper-member-expression-to-functions" "^7.16.0"
-    "@babel/helper-optimise-call-expression" "^7.16.0"
-    "@babel/traverse" "^7.16.0"
     "@babel/types" "^7.16.0"
 
 "@babel/helper-replace-supers@^7.16.5":
